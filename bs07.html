@@ -1,6 +1,13 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.8/umd/popper.min.js" integrity="sha512-TPh2Oxlg1zp+kz3nFA0C5vVC6leG/6mm1z9+mA81MI5eaUVqasPLO8Cuk4gMF4gUfP5etR73rgU/8PNMsSesoQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+      $(function () {
+        $('[data-bs-toggle="popover"]').popover();
+      })
+    </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap harjutused</title>
@@ -9,7 +16,7 @@
   </head>
   <body>
     <div class="container">
-      <small><a href="link" class="btn btn-danger rounded-3">?</a></small>
+      <span class="badge text-bg-danger rounded-pill float-end mt-2" data-bs-toggle="popover" data-bs-title="Abiteksst" data-bs-content="veritatis voluptate facere eius enim iusto repellendus mollitia">?</span>
       <h1>Lorem ipsum</h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa qui quod velit labore quasi dolore deserunt in praesentium placeat eum, veritatis voluptate facere eius enim iusto repellendus mollitia, quae autem!</p>
     </div>
@@ -17,4 +24,4 @@
   </body>
 </html>
 <!-- twat -->
-<!-- don't copy my code you pu*sy/ ära kopeeri mu koodi sa pe*de -->
+<!-- don't copy my code you pu*sy be creative make your own/ ära kopeeri mu koodi sa pe*de ole loov tee ise -->
